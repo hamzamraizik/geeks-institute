@@ -11,7 +11,7 @@ name = input("What is your name? ")
 if name.lower() == "hamza":
     print("Hey, name twin! Which one of us is the original?")
 else:
-    print(f"Hi {name}, you have a different name from me.")
+    print(f"Hi {name}, you have a diffrent name from me.")
 
 # Exercise 4: Roller coaster
 height = int(input("What is your height in cm? "))
@@ -24,7 +24,7 @@ else:
 my_fav_numbers = {7, 12, 42}
 my_fav_numbers.add(3)
 my_fav_numbers.add(99)
-# Sets have no last item, so remove the second number I just added.
+# sets dont have a last number so im removing 99
 my_fav_numbers.remove(99)
 friend_fav_numbers = {3, 8, 21}
 our_fav_numbers = my_fav_numbers.union(friend_fav_numbers)
@@ -32,7 +32,7 @@ print(our_fav_numbers)
 
 # Exercise 6: Tuple
 numbers = (1, 2, 3)
-# We can't change a tuple in place, but can make a new one.
+# cant add to the same tuple so i make another
 numbers = numbers + (4,)
 print(numbers)
 

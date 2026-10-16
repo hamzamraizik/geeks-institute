@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+
+.exercise-heading {
+  color: white;
+  background-color: DodgerBlue;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.para {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
